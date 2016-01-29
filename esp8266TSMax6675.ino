@@ -18,9 +18,9 @@ int thermoCLK = 0;
 
 MAX6675 thermocouple(thermoCLK, thermoCS, thermoDO);
 
-const char* ssid     = "DONATOCAROL";
-const char* password = "123CAROL4";
-String apiKey = "EXAKNDL6FO8PW59K";
+const char* ssid     = "your ssid";
+const char* password = "your passwd";
+String apiKey = "your thingspeak api key";
 
 const char* host = "api.thingspeak.com";
 
